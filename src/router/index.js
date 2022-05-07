@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import categorie from '../views/categorieView.vue'
+import HomeView from '/src/views/HomeView.vue'
+import categorie from '/src/views/categorieView.vue'
+import call from '/src/views/callView.vue'
 
 
 const routes = [
@@ -21,6 +22,11 @@ const routes = [
     path: '/categorie',
     name: 'categorie',
     component: categorie
+  },
+  {
+    path: '/call',
+    name: 'call',
+    component: call
   }
 
 ]
